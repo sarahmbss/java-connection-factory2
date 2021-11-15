@@ -8,10 +8,10 @@ public class Principal {
         
 		CategoriesDao categoriedao = new CategoriesDao();
 		
-		System.out.println("###------------Teste Crud Users----------###");
+		System.out.println("###------------Teste Crud Categoria----------###");
 		
-		//criando usuário com id 1, para conseguir encontrar usuário em operações futuras
-		System.out.println("###------------Criar usuario");
+		//criando categoria 
+		System.out.println("###------------Criar categoria");
 		CategoriesModel categories = new CategoriesModel();
 		categories.setData(3, "vestido","vestidos femininos");
 		try {
